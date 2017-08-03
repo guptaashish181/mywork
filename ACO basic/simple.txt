@@ -1,0 +1,69 @@
+run:
+Starting ExtendedExample...
+Initialising...
+Starting CloudSim version 3.0
+Datacenter_0 is starting...
+Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 resource(s)
+0.0: Broker: Trying to Create VM #0 in Datacenter_0
+0.0: Broker: Trying to Create VM #1 in Datacenter_0
+0.0: Broker: Trying to Create VM #2 in Datacenter_0
+0.0: Broker: Trying to Create VM #3 in Datacenter_0
+0.0: Broker: Trying to Create VM #4 in Datacenter_0
+0.1: Broker: VM #0 has been created in Datacenter #2, Host #0
+0.1: Broker: VM #1 has been created in Datacenter #2, Host #1
+0.1: Broker: VM #2 has been created in Datacenter #2, Host #2
+0.1: Broker: VM #3 has been created in Datacenter #2, Host #3
+0.1: Broker: VM #4 has been created in Datacenter #2, Host #4
+0.1: Broker: Sending cloudlet 0 to VM #0
+0.1: Broker: Sending cloudlet 1 to VM #1
+0.1: Broker: Sending cloudlet 2 to VM #2
+0.1: Broker: Sending cloudlet 3 to VM #3
+0.1: Broker: Sending cloudlet 4 to VM #4
+0.1: Broker: Sending cloudlet 5 to VM #0
+0.1: Broker: Sending cloudlet 6 to VM #1
+0.1: Broker: Sending cloudlet 7 to VM #2
+0.1: Broker: Sending cloudlet 8 to VM #3
+0.1: Broker: Sending cloudlet 9 to VM #4
+58.68041958041958: Broker: Cloudlet 4 received
+69.7559591487649: Broker: Cloudlet 0 received
+135.712793681139: Broker: Cloudlet 5 received
+167.12887759722292: Broker: Cloudlet 9 received
+172.44721669756893: Broker: Cloudlet 1 received
+211.3754463626407: Broker: Cloudlet 3 received
+229.0193857565801: Broker: Cloudlet 2 received
+241.80485288460778: Broker: Cloudlet 6 received
+358.39336963101925: Broker: Cloudlet 8 received
+467.5979150855647: Broker: Cloudlet 7 received
+467.5979150855647: Broker: All Cloudlets executed. Finishing...
+467.5979150855647: Broker: Destroying VM #0
+467.5979150855647: Broker: Destroying VM #1
+467.5979150855647: Broker: Destroying VM #2
+467.5979150855647: Broker: Destroying VM #3
+467.5979150855647: Broker: Destroying VM #4
+Broker is shutting down...
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_0 is shutting down...
+Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    Machine    Time    Start Time    Finish Time
+    4        SUCCESS        2            4        58.58        0.1        58.68
+    0        SUCCESS        2            0        69.66        0.1        69.76
+    5        SUCCESS        2            0        65.96        69.76        135.71
+    9        SUCCESS        2            4        108.45        58.68        167.13
+    1        SUCCESS        2            1        172.35        0.1        172.45
+    3        SUCCESS        2            3        211.28        0.1        211.38
+    2        SUCCESS        2            2        228.92        0.1        229.02
+    6        SUCCESS        2            1        69.36        172.45        241.8
+    8        SUCCESS        2            3        147.02        211.38        358.39
+    7        SUCCESS        2            2        238.58        229.02        467.6
+avgRU: 0.5860324713504488
+LBL: 54.95448292687879
+makespan: 467.5979150855647
+ExtendedExample finished!
+BUILD SUCCESSFUL (total time: 0 seconds)
